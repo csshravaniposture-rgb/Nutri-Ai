@@ -10,13 +10,13 @@ GENDER_OPTIONS = ["Male", "Female", "Other"]
 FITNESS_LEVEL_OPTIONS = ["Beginner", "Intermediate", "Advanced"]
 GOAL_OPTIONS = ["Weight Loss", "Weight Gain", "Maintenance", "Muscle Building"]
 DIET_PREFERENCE_OPTIONS = ["Vegetarian", "Non-Vegetarian", "Vegan", "Eggetarian", "Pescatarian", "No Preference"]
-CUISINE_OPTIONS = ["Indian", "Mexican", "Spanish", "Italian", "Chinese", "Mediterranean", "American", "Japanese", "Korean", "Thai", "Middle Eastern"]
-MEAL_TYPE_OPTIONS = ["Breakfast", "Lunch", "Dinner", "Snack", "Appetizer", "Main Course", "Dessert", "Soup", "Salad", "Beverage"]
+CUISINE_OPTIONS = ["Indian", "Mexican", "Spanish", "Italian", "Chinese", "American", "Japanese", "Korean", "Thai", "Middle Eastern"]
+MEAL_TYPE_OPTIONS = ["Breakfast", "Lunch", "Dinner", "Snack", "Main Course", "Dessert", "Soup", "Salad"]
 BUDGET_TYPE_OPTIONS = ["Daily", "Weekly", "Monthly"]
 
 st.set_page_config(
-    page_title="Fitness & Diet Management",
-    page_icon="🏋️",
+    page_title="Nutri-AI",
+    page_icon="🥗",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -27,24 +27,24 @@ st.markdown("""
     .main-header {
         font-size: 2.5rem;
         font-weight: bold;
-        color: #1f77b4;
+        color: Orange;
         text-align: center;
         margin-bottom: 2rem;
     }
     .section-header {
         font-size: 1.5rem;
         font-weight: bold;
-        color: #2e7d32;
+        color: Light Orange;
         margin-top: 1rem;
     }
     .info-box {
-        background-color: #e3f2fd;
+        background-color: Black;
         padding: 1rem;
         border-radius: 10px;
         margin: 1rem 0;
     }
     .result-box {
-        background-color: #f5f5f5;
+        background-color: grey;
         padding: 1rem;
         border-radius: 10px;
         margin: 1rem 0;
